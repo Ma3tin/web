@@ -1,8 +1,36 @@
-body {
-    background-color: darkgray;
+.pisek {
+    background-color: #5e5d5e;
+    overflow: hidden;
+    border-radius: 3px;
 }
 
-ul {
+.pisek a {
+    float: left;
+    color: white;
     text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: "Yu Gothic Light";
+    font-size: 20px;
+    margin-left: 15px;
 
+}
+
+.pisek a:hover {
+    background: black;
+    color: yellow;
+}
+
+.login {
+    margin-left: 90%;
+
+}
+
+.pepa {
+    width: 150px;
+    text-align: center;
+}
+
+body {
+    background: darkcyan;
 }
