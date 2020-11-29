@@ -1,4 +1,4 @@
-.container {
+.cecik {
     text-align: center;
 }
 form {
@@ -9,7 +9,7 @@ form {
     margin-top: 50px;
     color: white;
 }
-.label {
+.pepis {
     display: inline-block;
     width: 100px;
 }
@@ -21,7 +21,7 @@ h2 {
     margin: 2px;
     color: white;
 }
-.button {
+.pepek {
     text-align: right;
 }
 .submit-button {
