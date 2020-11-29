@@ -1,7 +1,7 @@
+
 .pisek {
-    background-color: #5e5d5e;
+    background-color: #0d0d0d;
     overflow: hidden;
-    border-radius: 3px;
 }
 
 .pisek a {
@@ -17,8 +17,8 @@
 }
 
 .pisek a:hover {
-    background: black;
-    color: yellow;
+    background: #800000;
+    color: black;
 }
 
 .login {
@@ -32,5 +32,135 @@
 }
 
 body {
-    background: darkcyan;
+    background: #262626;
+    margin: 0px;
+
+}
+
+.slozeni {
+    width: 80%;
+}
+
+.cenik-container {
+    display: flex;
+    align-items: flex-end;
+    height: calc(100vh - 72px);
+
+}
+
+.price {
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.cenik-content {
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    background-color: #bfbfbf;
+    padding: 0px;
+}
+
+.cena-slozeni {
+    border: 5px #bfbfbf solid;
+    background-color: #bfbfbf;
+}
+
+.cena-cisteni {
+    border: 5px #bfbfbf solid;
+    justify-content: space-around;
+    background-color: #8c8c8c;
+}
+
+.price-table {
+    padding-right: 75px;
+    width: calc(50% - 75px);
+    font-size: 20px;
+    font-family: "Yu Gothic Light";
+}
+
+iframe {
+    margin: 20px;
+}
+
+.fa-instagram {
+    color: white;
+    font-family: "Yu Gothic Light";
+    list-style: none;
+    font-size: 100px;
+    margin: 50px 150px;
+}
+
+.fa-facebook-f {
+    color: white;
+    font-family: "Yu Gothic Light";
+    font-size: 100px;
+    margin: 50px 100px;
+}
+
+.facebook-instagram {
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+
+.fa-facebook-f:hover {
+    color: #4267B2
+;
+}
+
+.fa-instagram:hover {
+    color: #660000;
+}
+.kontakty {
+    padding-bottom: 50px;
+    font-family: "Yu Gothic Light";
+    font-weight: bold;
+}
+
+.tablety {
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.iframes {
+    border-collapse: collapse;
+}
+
+.photos img {
+    /*margin-left: 15px;
+    margin-right: 15px;*/
+    margin: 15px;
+}
+
+.photos {
+    margin: 10px;
+}
+
+.galerie {
+    background-color: #5e5d5e;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.galerka {
+    color: #660000;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: auto;
+    text-align: left;
+    font-family: Consolas;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.haf {
+    padding-left: 50px;
 }
